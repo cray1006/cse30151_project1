@@ -1,0 +1,46 @@
+Christopher Ray
+Marina Blanton
+CSE 30151
+9 February 2015
+
+Project 1 README
+
+Compilation Instructions:
+	
+	A makefile has been provided for this application.  Simply use the following command to compile:
+
+		make
+
+	To clean up the results of the compilation, use the following command:
+
+		make clean
+
+
+Execution Instructions:
+
+	To execute the program:
+
+		./nfa [input file to build nfa]
+
+	Note that it is possible to do the follwing:
+
+		./nfa [input file to build nfa] < [file containing std input for the nfa] > [desired output filename]
+
+
+The following files should be included in this project directory:
+
+	main.cpp		Driver program for nfa
+	nfa.h			Header file containing class and struct definitions
+	nfa.cpp			File containing class implementations
+	makefile		The file used to build the project
+	README			This file that you are currently reading and hopefully has some useful information
+	test-case1.txt		File containing nfa definition for the language 0*{01}*
+	case1-input.txt		File containing input for the nfa from test-case1
+	test-case2.txt		File containing nfa definition for the language {e, 0, 01+}
+	case2-input.txt		File containing for the nfa from test-case2
+	nfa1.txt		Sample nfa provided to students
+	nfa1-input.txt		input for nfa1.txt
+	nfa2.txt		Sample nfa provided to students
+	nfa2-input.txt		input for nfa2.txt
+	project1Report.pdf	Project report submission
+	

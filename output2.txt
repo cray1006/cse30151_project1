@@ -1,0 +1,17 @@
+; q2,q1,q3
+a; q4,q6,q1,q2,q3
+b; q4,q3,q1,q2
+a; q4,q6,q5,q1,q2,q3
+ACCEPT
+
+; q2,q1,q3
+a; q4,q6,q1,q2,q3
+a; q4,q6,q5,q3,q1,q2
+b; q4,q3,q1,q2
+b; q4,q1,q2,q3
+ACCEPT
+
+; q2,q1,q3
+b; 
+REJECT
+
